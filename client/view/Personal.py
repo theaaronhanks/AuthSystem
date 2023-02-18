@@ -1,3 +1,4 @@
+import datetime
 import tkinter as tk
 from client.view.ChangePassword import ChangePassword
 from client.view.Menu import Menu
@@ -8,6 +9,7 @@ class Personal(Menu):
         super().__init__(master, "Personal Information", root, *args, **kwargs)
 
         self.__api = API()
+        self.get_root().title(f"User: {self.__api.get_name()}")
         self.__initialize()
 
     def __initialize(self):
@@ -27,7 +29,8 @@ class Personal(Menu):
             self.print("Username: " + user_info["user_name"])
             self.print("Email: " + user_info["email"])
             self.print("Employee ID: " + user_info["id"])
-            self.print("Last Login: " + user_info["last_login"])
+            date = datetime.datetime.fromtimestamp(int(user_info["last_login"])/1000.0)
+            self.print("Last Login: " + date.strftime("%m/%d/%Y, %H:%M:%S"))
             self.print("\n")
 
     def __populate_edit_options(self):
@@ -39,14 +42,23 @@ class Personal(Menu):
         self.add_option("Edit Password", self.__edit_password)
 
     def __edit_name(self, first_name, last_name):
-        self.__api.update_active_user_info("first_name", first_name)
-        self.__api.update_active_user_info("last_name", last_name)
+        first_response = self.__api.update_active_user_info("first_name", first_name)
+        last_response = self.__api.update_active_user_info("last_name", last_name)
+        self.__populate_user_data()
+        self.print(first_response["message"])
+        self.print(last_response["message"])
 
     def __edit_username(self, username):
-        self.__api.update_active_user_info("user_name", username)
+        response = self.__api.update_active_user_info("user_name", username)
+        if response["status"] == "ok":
+            self.__populate_user_data()
+        self.print(response["message"])
 
     def __edit_email(self, email):
-        self.__api.update_active_user_info("email", email)
+        response = self.__api.update_active_user_info("email", email)
+        if response["status"] == "ok":
+            self.__populate_user_data()
+        self.print(response["message"])
 
     def __edit_password(self):
         cp = ChangePassword(self, self.get_root())

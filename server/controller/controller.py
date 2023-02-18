@@ -44,9 +44,11 @@ def change_password(user_id, password, confirm_password):
         return {"status": "error", "message": "Passwords do not match"}
     # if len(password) < 12:
     #     return {"status": "error", "message": "Password must be at least 12 characters"}
-    found = False
+    new_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
+
+    changed = __edit_password_data(user_id, PasswordFields.PASSWORD_HASH, new_password)
     
-    if found:
+    if changed: 
         __edit_user_data(user_id, UserFields.NEW_USER, "false")
         return {"status": "ok", "message": "Password successfully changed"}
     else:
@@ -115,7 +117,10 @@ def edit_user_data(user_id, field, value):
         if not value.isalnum():
             return {"status": "error", "message": "Username must only contain letters and numbers"}
         if __edit_user_data(user_id, UserFields.USER_NAME, value):
-            return {"status": "ok", "message": "Username successfully changed"}
+            if __edit_password_data(user_id, PasswordFields.USER_NAME, value):
+                return {"status": "ok", "message": "Username successfully changed"}
+            else:
+                return {"status": "error", "message": "Username change failed. Please try again."}
     elif field == "email":
         if len(value) < 1:
             return {"status": "error", "message": "Email must be at least 1 character"}
@@ -126,7 +131,6 @@ def edit_user_data(user_id, field, value):
         if __edit_user_data(user_id, UserFields.EMAIL, value):
             return {"status": "ok", "message": "Email successfully changed"}
     elif field == "role":
-        # todo: check if user has hr permissions
         if value not in ROLES:
             return {"status": "error", "message": "Invalid role"}
         if __edit_user_data(user_id, UserFields.ROLE, value):
@@ -161,7 +165,6 @@ def __edit_user_data(user_id, field, value):
 
 
 def __edit_password_data(user_id, field, value):
-    value = value.strip()
     edited = False
     with open("server/data/passwd.txt", "r") as f:
         lines = f.readlines()
@@ -172,16 +175,10 @@ def __edit_password_data(user_id, field, value):
                 # todo: log error
                 continue
             if items[PasswordFields.ID.value] == user_id:
-                new_line = f"{items[PasswordFields.ID.value]},"
-                if field == "user_name":
-                    new_line += f"{value},"
-                else:
-                    new_line += f"{items[PasswordFields.USER_NAME.value]},"
-                if field == "password_hash":
-                    new_line += f"{bcrypt.hashpw(value.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')}\n"
-                else:
-                    new_line += f"{items[PasswordFields.PASSWORD_HASH.value]}\n"
-                f.write(new_line)
+                items[field.value] = value
+                f.write(f"{items[PasswordFields.ID.value]},"
+                        f"{items[PasswordFields.USER_NAME.value]},"
+                        f"{items[PasswordFields.PASSWORD_HASH.value]}\n")
                 edited = True
             else:
                 f.write(line)

@@ -1,7 +1,6 @@
 import tkinter as tk
 from client.view.Menu import Menu
 from client.view.MainMenu import MainMenu
-from client.view.ChangePassword import ChangePassword
 from client.service.api import API
 
 
