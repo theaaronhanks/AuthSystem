@@ -21,7 +21,7 @@ class Login(Menu):
         result = self.__api.login(username, password)
 
         if result["status"] == "ok":
-            self.__switch_to_main(self.__api.get_name())
+            self.__switch_to_main()
         else:
             self.set_display(result["message"])
 
@@ -29,8 +29,8 @@ class Login(Menu):
         result = self.__api.demo_option(thing1, thing2)
         self.set_display("Thing 1 + Thing 2 is " + str(result))
 
-    def __switch_to_main(self, username):
-        mm = MainMenu(self, self.get_root(), username)
+    def __switch_to_main(self):
+        mm = MainMenu(self, self.get_root())
         self.switch_menu(mm, self.__return_to_login)
 
     def __return_to_login(self):
