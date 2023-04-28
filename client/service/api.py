@@ -20,9 +20,20 @@ class API:
 # and return to the view that called it
 ########################################################
 
+    def check_privelage(self, action):
+        response = controller.check_privelage(self.__userId, action)
+        return response["status"] == "ok"
+
     # Get the name of the authenticated user
-    def get_name(self):
-        return controller.get_name(self.__userId)
+    def get_name(self, user_id=None):
+        if user_id is not None and self.check_privelage("hr"):
+            response = controller.get_name(user_id)
+        else:
+            response = controller.get_name(self.__userId)
+        if response["status"] == "ok":
+            return response["name"]
+        else:
+            return "Unknown"
 
     # Get the user id of the authenticated user
     def get_user_id(self):
@@ -50,25 +61,62 @@ class API:
     def get_frames(self):
         return controller.get_screen_list(self.__userId)
 
-    # Demo to show how to submit data to server
-    def demo_option(self, thing1, thing2):
-        return controller.demo_option(thing1, thing2)
-
     def calculate(self, operation, num1, num2):
-        return controller.calculate(self.__userId, operation, num1, num2)
+        if operation == "add":
+            can_calc = self.check_privelage("add")
+        elif operation == "sub":
+            can_calc = self.check_privelage("sub")
+        elif operation == "mul":
+            can_calc = self.check_privelage("mul")
+        elif operation == "div":
+            can_calc = self.check_privelage("div")
+        if can_calc:
+            return controller.calculate(self.__userId, operation, num1, num2)
+        else:
+            return {"status": "error", "message": "You do not have permission to do that"}
 
     def get_active_user_info(self):
         return controller.get_user_data(self.__userId)
 
     def get_user_info(self, user_id):
-        return controller.get_user_data(user_id)
+        if self.check_privelage("hr") or self.check_privelage("admin"):
+            return controller.get_user_data(user_id)
+        else:
+            return {"status": "error", "message": "You do not have permission to do that"}
 
     def update_active_user_info(self, field, value):
-        return controller.edit_user_data(self.__userId, field, value)
+        return controller.edit_user_data(self.__userId, self.__userId, field, value)
 
     def update_user_info(self, user_id, field, value):
-        return controller.edit_user_data(user_id, field, value)
+        if self.check_privelage("hr") or self.check_privelage("admin"):
+            return controller.edit_user_data(self.__userId, user_id, field, value)
+        return {"status": "error", "message": "You do not have permission to do that"}
+
+    def get_calculations(self):
+        if self.check_privelage("admin"):
+            return controller.get_calculations(self.__userId)
+        return {"status": "error", "message": "You do not have permission to do that"}
 
     # Get list of users
     def get_users(self):
-        return controller.get_users()
+        if self.check_privelage("hr") or self.check_privelage("admin"):
+            return controller.get_users(self.__userId)
+        return {"status": "error", "message": "You do not have permission to do that"}
+
+    def add_user(self, first_name, last_name, user_name, email, role):
+        if role == "hr" and not self.check_privelage("admin"):
+            return {"status": "error", "message": "You do not have permission to do that"}
+        elif not self.check_privelage("hr"):
+            return {"status": "error", "message": "You do not have permission to do that"}
+        return controller.add_user(self.__userId, first_name, last_name, user_name, email, role)
+
+    def remove_user(self, user_id):
+        response = controller.get_user_data(user_id)
+        if response["status"] == "error":
+            return response
+        role = response["data"]["role"]
+        if role == "hr" and not self.check_privelage("admin"):
+            return {"status": "error", "message": "You do not have permission to do that"}
+        elif not self.check_privelage("hr"):
+            return {"status": "error", "message": "You do not have permission to do that"}
+        return controller.remove_user(self.__userId, user_id)

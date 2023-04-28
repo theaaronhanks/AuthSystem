@@ -12,7 +12,6 @@ class Login(Menu):
 
         self.get_root().title("Login")
         self.add_option("Login", self.get_input, 2, "Login", self.__login, "Enter Username", "Enter Password")
-        # self.add_option("DEMO-OPTION", self.get_input, 2, "DEMO OPTION", self.__demo_option, "Thing 1", "Thing 2")
         self.add_option("Exit", exit, 0)
 
 
@@ -23,10 +22,6 @@ class Login(Menu):
             self.__switch_to_main()
         else:
             self.set_display(result["message"])
-
-    def __demo_option(self, thing1, thing2):
-        result = self.__api.demo_option(thing1, thing2)
-        self.set_display("Thing 1 + Thing 2 is " + str(result))
 
     def __switch_to_main(self):
         mm = MainMenu(self, self.get_root())

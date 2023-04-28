@@ -1,2 +1,9 @@
-user_id,username,password_hash
-1,bob,$2b$12$Hl.8zqxJakEEgoudzJMytO7nqUa4x4MDHMVAW3IuwQtw04dSCyuoK
+67d041da-5707-499d-be0f-751e0fca90e3,admin,$2b$12$rUWoxB1KSsP245TZUsPP5.PQN4RCiArztCtsVhIHklGyBvshhA//6
+1980e67b-a426-4022-901a-7b1c4f1d8dea,bob,$2b$12$V31wxACK4xSynthDdVFsCeTIealnQCDv.h4g312evgmh6XZBrTxOK
+1a2e1741-b621-4dad-8bd0-3faf86990c00,ja,$2b$12$Y1HheAZMt5naBUSb.GL9t.gQHxfNGtAVQFSbXyK5KuRsXLJ6uZLBK
+84a8a703-b544-4024-a49d-66ab2d463caa,sa,$2b$12$eQHYXx9Fd67d0WBBkbr1ZeHwnMMalaPZPTUEbtyn6gob.nFkEoh4G
+e970550d-ba76-4d86-9eda-2b6cffe8f1ab,je,$2b$12$sB9sBkh4cX4Ne1R7YW4Zv.tOpRgXJEUN.XLpZ5eXMk9W0qDZ/RYcK
+f2cc8d1b-d9d6-4f41-a460-eb712147de51,se,$2b$12$qL3N2v0dtllimjN0XlcDme0oS9Z0XIr7nyz3o64HA5tZ/kcjZNmoq
+cfb8f318-a9a8-4cf2-8302-f85080e6758e,math,$2b$12$M2gzpFFFc5n.Xs2dCIUfXuo13baxjFJ/ilKqyVtAKZF06/yCbM47G
+cbeb71e8-f820-4b50-813b-5a392a620168,hr,$2b$12$cLaMlLnVo7c/JM3QzOeDSubPtoN9ARK.wDNzy0m.zrT7lFloQghp2
+7b60517d-b1ee-4919-ac63-e92e25960614,bob,$2b$12$LFdZaryDY6bSBRrYzaYwjuQXYD0lLN0hXWzACS9chIUFAuCvIxDK6

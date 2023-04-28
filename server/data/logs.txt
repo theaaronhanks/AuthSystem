@@ -1,0 +1,157 @@
+2023-02-22 19:30:50.604720 || f2cc8d1b-d9d6-4f41-a460-eb712147de51 performed action:login || Status:success 
+2023-02-22 19:31:01.037191 || f2cc8d1b-d9d6-4f41-a460-eb712147de51 performed action:calculate || Status:success 
+2023-02-22 20:06:30.318998 || 1a2e1741-b621-4dad-8bd0-3faf86990c00 performed action: login || Status: success 
+2023-02-22 20:06:47.280756 || 1a2e1741-b621-4dad-8bd0-3faf86990c00 performed action: change_password || Status: success 
+2023-02-22 20:07:14.459211 || 1a2e1741-b621-4dad-8bd0-3faf86990c00 performed action: edit first name for 1a2e1741-b621-4dad-8bd0-3faf86990c00 || Status: success 
+2023-02-22 20:07:14.461259 || 1a2e1741-b621-4dad-8bd0-3faf86990c00 performed action: edit last name for 1a2e1741-b621-4dad-8bd0-3faf86990c00 || Status: success 
+2023-02-22 20:07:19.155719 || 1a2e1741-b621-4dad-8bd0-3faf86990c00 performed action: edit username for 1a2e1741-b621-4dad-8bd0-3faf86990c00 || Status: success 
+2023-02-22 20:07:22.554229 || 1a2e1741-b621-4dad-8bd0-3faf86990c00 performed action: edit username for 1a2e1741-b621-4dad-8bd0-3faf86990c00 || Status: success 
+2023-02-22 20:07:34.100458 || 1a2e1741-b621-4dad-8bd0-3faf86990c00 performed action: calculate || Status: success 
+2023-02-22 20:07:44.864227 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: login || Status: success 
+2023-02-22 20:07:47.064693 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: failed 
+2023-02-22 20:08:56.151098 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: change_password || Status: failed 
+2023-02-22 20:09:02.427201 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: change_password || Status: success 
+2023-02-22 20:10:34.169456 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: failed 
+2023-02-22 20:18:39.296348 || 84a8a703-b544-4024-a49d-66ab2d463caa performed action: login || Status: success 
+2023-02-22 20:18:59.663660 || 84a8a703-b544-4024-a49d-66ab2d463caa performed action: change_password || Status: success 
+2023-02-22 20:20:15.541700 || e970550d-ba76-4d86-9eda-2b6cffe8f1ab performed action: login || Status: success 
+2023-02-22 20:20:32.611364 || e970550d-ba76-4d86-9eda-2b6cffe8f1ab performed action: change_password || Status: failed 
+2023-02-22 20:21:05.082057 || e970550d-ba76-4d86-9eda-2b6cffe8f1ab performed action: change_password || Status: success 
+2023-02-22 20:21:35.251518 || f2cc8d1b-d9d6-4f41-a460-eb712147de51 performed action: login || Status: success 
+2023-02-22 20:25:31.359219 || f2cc8d1b-d9d6-4f41-a460-eb712147de51 performed action: change_password || Status: success 
+2023-02-22 20:26:08.866728 || cfb8f318-a9a8-4cf2-8302-f85080e6758e performed action: login || Status: success 
+2023-02-22 20:26:43.701479 || cfb8f318-a9a8-4cf2-8302-f85080e6758e performed action: change_password || Status: failed 
+2023-02-22 20:27:25.830910 || cfb8f318-a9a8-4cf2-8302-f85080e6758e performed action: change_password || Status: success 
+2023-02-22 20:28:54.623263 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: login || Status: success 
+2023-02-22 20:29:07.892099 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:15.129150 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:15.910308 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:16.586315 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:17.370531 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:17.911933 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:18.948012 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:24.866354 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:25.530258 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:26.046254 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:26.461580 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:26.833088 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:29:27.373883 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:30:15.323532 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit first name for 1a2e1741-b621-4dad-8bd0-3faf86990c00 || Status: success 
+2023-02-22 20:30:15.325531 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit last name for 1a2e1741-b621-4dad-8bd0-3faf86990c00 || Status: success 
+2023-02-22 20:30:19.914543 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for 1a2e1741-b621-4dad-8bd0-3faf86990c00 || Status: failed 
+2023-02-22 20:30:27.787037 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for 1a2e1741-b621-4dad-8bd0-3faf86990c00 || Status: success 
+2023-02-22 20:30:32.976048 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for 1a2e1741-b621-4dad-8bd0-3faf86990c00 || Status: success 
+2023-02-22 20:30:38.698598 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:30:46.520506 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:30:49.891885 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:30:57.061970 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for f2cc8d1b-d9d6-4f41-a460-eb712147de51 || Status: failed 
+2023-02-22 20:30:59.918593 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for f2cc8d1b-d9d6-4f41-a460-eb712147de51 || Status: failed 
+2023-02-22 20:31:02.390591 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:31:27.599675 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:34:57.262923 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:35:30.075745 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:36:25.952097 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: remove user || Status: success 
+2023-02-22 20:36:28.687600 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 20:37:06.314414 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit first name for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:37:06.320414 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit last name for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:37:11.218282 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit first name for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:37:11.223289 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit last name for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:37:14.291751 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit username for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:37:17.067473 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit username for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: failed 
+2023-02-22 20:37:26.670051 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit username for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:37:30.375651 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit username for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: failed 
+2023-02-22 20:37:33.835328 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit username for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:42:15.322214 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit email for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:42:18.281429 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit email for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: failed 
+2023-02-22 20:42:22.533408 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit email for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: failed 
+2023-02-22 20:42:28.977403 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit email for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:42:47.259260 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit email for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: failed 
+2023-02-22 20:42:51.839351 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit email for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 20:43:17.467415 || cfb8f318-a9a8-4cf2-8302-f85080e6758e performed action: login || Status: success 
+2023-02-22 20:43:38.362670 || cfb8f318-a9a8-4cf2-8302-f85080e6758e performed action: calculate || Status: success 
+2023-02-22 20:44:05.586050 || cfb8f318-a9a8-4cf2-8302-f85080e6758e performed action: calculate || Status: success 
+2023-02-22 20:44:17.726856 || cfb8f318-a9a8-4cf2-8302-f85080e6758e performed action: calculate || Status: success 
+2023-02-22 20:45:53.409336 || cfb8f318-a9a8-4cf2-8302-f85080e6758e performed action: calculate || Status: success 
+2023-02-22 20:46:27.484095 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: login || Status: success 
+2023-02-22 20:58:52.172502 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get calculations || Status: success 
+2023-02-22 21:00:23.649594 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get calculations || Status: success 
+2023-02-22 21:00:28.653409 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:00:40.453123 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:01:00.441405 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit role for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 21:01:04.693620 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit role for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 21:06:09.926777 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:06:14.959706 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:06:32.450610 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:06:54.169986 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: remove user || Status: success 
+2023-02-22 21:06:55.529370 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:07:06.634763 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:07:16.067674 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:07:34.636621 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: remove user || Status: success 
+2023-02-22 21:07:35.523255 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:19:51.496161 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 21:25:32.611085 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: login || Status: success 
+2023-02-22 21:25:49.270286 || 84a8a703-b544-4024-a49d-66ab2d463caa performed action: login || Status: success 
+2023-02-22 21:25:55.529459 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 21:26:02.671677 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for 84a8a703-b544-4024-a49d-66ab2d463caa || Status: success 
+2023-02-22 21:28:45.292282 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: login || Status: success 
+2023-02-22 21:28:58.524502 || 84a8a703-b544-4024-a49d-66ab2d463caa performed action: login || Status: success 
+2023-02-22 21:29:13.346617 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 21:29:22.224440 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for 84a8a703-b544-4024-a49d-66ab2d463caa || Status: success 
+2023-02-22 21:29:35.847866 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for 84a8a703-b544-4024-a49d-66ab2d463caa || Status: success 
+2023-02-22 21:29:55.352476 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:04:28.355025 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: login || Status: success 
+2023-02-22 22:04:37.458518 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:04:41.376663 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:04:44.817747 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:04:47.230389 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:04:53.311985 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for 84a8a703-b544-4024-a49d-66ab2d463caa || Status: success 
+2023-02-22 22:04:57.088569 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:05:02.109668 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:05:04.955999 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:05:47.628577 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: add user || Status: success 
+2023-02-22 22:05:47.634085 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:07:17.257267 || 20c79ee4-b40c-4719-8170-040a454f686c performed action: login || Status: success 
+2023-02-22 22:07:38.819273 || 20c79ee4-b40c-4719-8170-040a454f686c performed action: login || Status: success 
+2023-02-22 22:08:55.760311 || 20c79ee4-b40c-4719-8170-040a454f686c performed action: change_password || Status: success 
+2023-02-22 22:11:12.991528 || 20c79ee4-b40c-4719-8170-040a454f686c performed action: edit email for 20c79ee4-b40c-4719-8170-040a454f686c || Status: success 
+2023-02-22 22:11:31.825365 || 20c79ee4-b40c-4719-8170-040a454f686c performed action: edit username for 20c79ee4-b40c-4719-8170-040a454f686c || Status: failed 
+2023-02-22 22:15:48.961405 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: login || Status: success 
+2023-02-22 22:15:50.434101 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:15:56.206860 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: remove user || Status: success 
+2023-02-22 22:15:57.225802 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:16:19.446053 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: login || Status: success 
+2023-02-22 22:16:21.162378 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:36:46.752149 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: login || Status: success 
+2023-02-22 22:37:54.689606 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit first name for 67d041da-5707-499d-be0f-751e0fca90e3 || Status: failed 
+2023-02-22 22:37:54.689606 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit last name for 67d041da-5707-499d-be0f-751e0fca90e3 || Status: failed 
+2023-02-22 22:38:08.889910 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit first name for 67d041da-5707-499d-be0f-751e0fca90e3 || Status: success 
+2023-02-22 22:38:08.898920 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit last name for 67d041da-5707-499d-be0f-751e0fca90e3 || Status: success 
+2023-02-22 22:38:20.105822 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit first name for 67d041da-5707-499d-be0f-751e0fca90e3 || Status: success 
+2023-02-22 22:38:20.110828 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit last name for 67d041da-5707-499d-be0f-751e0fca90e3 || Status: success 
+2023-02-22 22:39:29.575803 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:39:40.358107 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:39:44.323233 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:39:44.969747 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:39:46.905936 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:40:07.205985 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:40:33.475415 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit role for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 22:40:44.051639 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit role for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: failed 
+2023-02-22 22:40:52.025138 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit role for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: failed 
+2023-02-22 22:41:01.854876 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: edit role for cbeb71e8-f820-4b50-813b-5a392a620168 || Status: success 
+2023-02-22 22:41:12.596897 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:41:20.267075 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get calculations || Status: success 
+2023-02-22 22:41:57.432452 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:42:22.468213 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:42:38.920725 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:43:13.938341 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: add user || Status: success 
+2023-02-22 22:43:13.946336 || 67d041da-5707-499d-be0f-751e0fca90e3 performed action: get users || Status: success 
+2023-02-22 22:43:54.445480 || 7b60517d-b1ee-4919-ac63-e92e25960614 performed action: login || Status: success 
+2023-02-22 22:44:21.183196 || 7b60517d-b1ee-4919-ac63-e92e25960614 performed action: change_password || Status: success 
+2023-02-22 22:44:48.589984 || 7b60517d-b1ee-4919-ac63-e92e25960614 performed action: calculate || Status: success 
+2023-02-22 22:45:00.827854 || 7b60517d-b1ee-4919-ac63-e92e25960614 performed action: calculate || Status: success 
+2023-02-22 22:45:45.328317 || f2cc8d1b-d9d6-4f41-a460-eb712147de51 performed action: login || Status: success 
+2023-02-22 22:46:35.657205 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: login || Status: success 
+2023-02-22 22:46:43.469449 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: get users || Status: success 
+2023-02-22 22:46:54.597272 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for f2cc8d1b-d9d6-4f41-a460-eb712147de51 || Status: success 
+2023-02-22 22:47:27.906736 || cbeb71e8-f820-4b50-813b-5a392a620168 performed action: edit role for f2cc8d1b-d9d6-4f41-a460-eb712147de51 || Status: success 
+2023-02-22 22:47:54.798262 || f2cc8d1b-d9d6-4f41-a460-eb712147de51 performed action: calculate || Status: success 

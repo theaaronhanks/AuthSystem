@@ -9,12 +9,12 @@ class Personal(Menu):
         super().__init__(master, "Personal Information", root, *args, **kwargs)
 
         self.__api = API()
-        self.get_root().title(f"User: {self.__api.get_name()}")
+        self.get_root().title(f"User: {self.__api.get_name()} || Personal Information")
         self.__initialize()
 
     def __initialize(self):
-        self.__populate_user_data()
-        self.__populate_edit_options()
+        if self.__populate_user_data():
+            self.__populate_edit_options()
 
     def __populate_user_data(self):
         self.clear_display()
@@ -22,16 +22,18 @@ class Personal(Menu):
         response = self.__api.get_active_user_info()
         if response["status"] == "error":
             self.set_display("Error getting user info. Please try again later.")
+            return False
         else: 
             user_info = response["data"]
             self.print("\n")
-            self.print("Name: " + user_info["first_name"] + " " + user_info["last_name"])
+            self.print("Name: " + user_info["first_name"].capitalize() + " " + user_info["last_name"].capitalize())
             self.print("Username: " + user_info["user_name"])
             self.print("Email: " + user_info["email"])
             self.print("Employee ID: " + user_info["id"])
             date = datetime.datetime.fromtimestamp(int(user_info["last_login"])/1000.0)
             self.print("Last Login: " + date.strftime("%m/%d/%Y, %H:%M:%S"))
             self.print("\n")
+            return True
 
     def __populate_edit_options(self):
         self.clear_options()

@@ -1,2 +1,8 @@
-user_id,user_name,first_name,last_name,email,role,new,last_login
-1,bob,bob,smith,bob1@smith.com,admin,false,1676694194109
+67d041da-5707-499d-be0f-751e0fca90e3,admin,Admin,man,admin@man.com,admin,false,1677130606751
+cbeb71e8-f820-4b50-813b-5a392a620168,hr,hr,man,hr@man.com,hr,false,1677131195656
+1a2e1741-b621-4dad-8bd0-3faf86990c00,ja,ja,man,ja@man.com,ja,false,1677121590319
+84a8a703-b544-4024-a49d-66ab2d463caa,sa,sa,man,sa@man.com,sa,false,1677126538524
+e970550d-ba76-4d86-9eda-2b6cffe8f1ab,je,je,man,je@man.com,je,false,1677122415541
+f2cc8d1b-d9d6-4f41-a460-eb712147de51,se,se,man,se@man.com,se,false,1677131145327
+cfb8f318-a9a8-4cf2-8302-f85080e6758e,math,math,man,math@man.com,math,false,1677123797466
+7b60517d-b1ee-4919-ac63-e92e25960614,bob,bob,smith,bob@smith.com,math,false,1677131034444
