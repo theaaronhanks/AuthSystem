@@ -18,7 +18,7 @@ After installing the required libraries, the program can be run from the root di
 
 To run the program:
 1. Activate the virtual environment
-2. Run the project using `python3 src/main.py`
+2. Run the project using `python3 app.py`
 
 After the program has started, the user is presented with a screen with an option to login, or an option to exit. Upon selecting the login option, the user will be prompted to enter a username and password. Incorrect credentials will be indicated by a message to the screen. Correct credentials will direct the user to a main menu.
 
