@@ -1,7 +1,5 @@
 # This module acts like the server. Queries come in as function calls and
-# something is returned. You should probably have it return: numbers, strings,
-# dictionaries, lists, or JSON. Let the client side change that into data objects
-# if necessary.
+# something is returned.
 import datetime
 import random
 import time
